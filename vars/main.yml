@@ -1,5 +1,5 @@
 rhel7cis_is_httpd_server: true
-rhel7cis_ipv6_required: true
+rhel7cis_ipv6_required: false
 firewall_allowed_tcp_ports:
   - "22"
   - "80"

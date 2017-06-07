@@ -16,8 +16,12 @@ This environment was built on Mac OS X Sierra using the following tools:
    - CIS Hardening guide - https://github.com/MindPointGroup/RHEL7-CIS.git
    - Firewalld - https://galaxy.ansible.com/geerlingguy/firewall/
    - Apache - https://galaxy.ansible.com/geerlingguy/apache/
+
+First you will need to fetch the latest ansible roles that we use to configure and secure the VM.  Run the following command in the directory where you cloned this repository:
+
+    vagrant up --provision
    
-You can clone this repository to a computer running Mac OS X Sierra and start the VirtualBox VM using Vagrant with the flag to provision the VM.  Run the follwing command in the directory where you cloned this repository:
+You can clone this repository to a computer running Mac OS X Sierra and start the VirtualBox VM using Vagrant with the flag to provision the VM.  Run the following command in the directory where you cloned this repository:
 
     vagrant up --provision
    
