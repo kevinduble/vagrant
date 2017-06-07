@@ -19,7 +19,7 @@ This environment was built on Mac OS X Sierra using the following tools:
 
 First you will need to fetch the latest ansible roles that we use to configure and secure the VM.  Run the following command in the directory where you cloned this repository:
 
-    vagrant up --provision
+    ansible-galaxy install -p roles -r requirements.yml
    
 You can clone this repository to a computer running Mac OS X Sierra and start the VirtualBox VM using Vagrant with the flag to provision the VM.  Run the following command in the directory where you cloned this repository:
 
