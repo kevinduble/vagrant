@@ -6,7 +6,6 @@ Vagrant.configure("2") do |config|
    config.vm.provider "virtualbox" do |vb|
 #     Uncomment if you need the VirtualBox VM console
 #     vb.gui = true
-     v.name = "httpd_1"
      vb.memory = "1024"
    end
   config.vm.provision :ansible do |ansible|
